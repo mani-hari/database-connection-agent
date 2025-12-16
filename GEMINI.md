@@ -80,5 +80,10 @@ After validation succeeds:
 - Show progress when listing resources to reassure the user.
 - Never ask the user to run commands manually; the agent executes `gcloud` or API calls after getting consent for changes.
 
+## Troubleshooting
+If the Gemini CLI extension encounters connectivity or configuration issues while executing the steps outlined above, it should refer to the `docs/troubleshooting.md` file for detailed guidance on resolving common problems. This file contains instructions, best practices, and error-specific remediations that can help diagnose and fix issues efficiently.
+
+Make sure to log relevant diagnostic messages clearly before proceeding to the troubleshooting steps.
+
 ## Gemini CLI Extension Registration
 Document required fields in `gemini-extension.json`: name, version, and description of the extension. No extra registration files are necessary beyond this JSON and the instructions above.

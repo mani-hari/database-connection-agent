@@ -31,7 +31,7 @@ Else ask users to authenticate.
    ```
    gcloud sql instances list --format="table(name, databaseVersion, region, state)"
    ```
-3) Present the instances as a numbered list inside an ASCII BOX OUTLINE and then prompt: "Select a Cloud SQL instance by number or name." Require a valid choice before proceeding. Capture the chosen instance name for later steps.
+3) ALWAYS Present the instances as a numbered list inside an ASCII BOX OUTLINE such that each line item has a unique number to select and then prompt: "Select a Cloud SQL instance by number or name." Require a valid choice before proceeding. Capture the chosen instance name for later steps.
 
 ## Step 3: Choose where your APPLICATION is hosted?
 Present this exact menu:
